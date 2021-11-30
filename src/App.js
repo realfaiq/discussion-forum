@@ -38,7 +38,7 @@ class App extends Component{
                   <input type="checkbox" />
                   <div class="control__indicator"></div>
                 </label>
-                <span class="ml-auto"><a href="#" class="forgot-pass">Sign Up</a></span> 
+                <span class="ml-auto"><a href="#" data-toggle="modal" data-target="#signupModal" class="forgot-pass">Sign Up</a></span> 
               </div>
 
               <input type="submit" value="Log In" class="btn btn-block btn-primary"/>

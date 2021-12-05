@@ -1,0 +1,154 @@
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  body{
+    overflow-x: hidden;
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  
+  span .On{
+    color: green;
+  }
+  
+  .back{
+    background: #F5F5F5;
+  }
+  
+  .back-2{
+    background: #F0FFF0;
+  }
+  
+  @media screen and (max-width: 600px){
+    #butt{
+      display: none;
+    }
+  }
+  
+  .icons ul{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  
+  .icons ul li{
+    list-style: none;
+    margin: 0 5px;
+  }
+  
+  .icons ul li .fab{
+    font-size: 30px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .icons ul li a{
+    position: relative;
+    display: block;
+    background: lightslategrey;
+    border-radius: 50%;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+  }
+  
+  
+  .icons ul li a:hover{
+    transform: translate(0, -5px);
+  }
+  
+  .icons ul li .fab:hover{
+    color: #fff;
+  }
+  
+  .icons ul li:nth-child(1) a:hover{
+    background: #1877f2;
+  }
+  
+  .icons ul li:nth-child(2) a:hover{
+    background: #c32aa3;
+  }
+  
+  
+  .icons ul li:nth-child(3) a:hover{
+    background: #1da1f2;
+  }
+  
+  
+  .icons ul li:nth-child(4) a:hover{
+    background: #0a66c2;
+  }
+  
+  
+  .icons ul li:nth-child(5) a:hover{
+    background: #bd081c;
+  }
+  
+  .icons ul .margin{
+    margin-left: 100%;
+  }
+  
+  
+  

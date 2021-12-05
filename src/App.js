@@ -3,6 +3,7 @@ import Contact from './components/Contact';
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.scss';
+import {Link} from "react-router-dom";
 
 
 class App extends Component{
@@ -41,7 +42,9 @@ class App extends Component{
                 <span class="ml-auto"><a href="#" data-toggle="modal" data-target="#signupModal" class="forgot-pass">Sign Up</a></span> 
               </div>
 
-              <input type="submit" value="Log In" class="btn btn-block btn-primary"/>
+              <Link to="/home">
+                <input type="submit" value="Log In" class="btn btn-block btn-primary"/>
+              </Link>
 
             </form>
           </div>

@@ -5,12 +5,16 @@ import SignUp from './components/SignUp';
 import Home from './components/Home';
 import reportWebVitals from './reportWebVitals';
 
+import { BrowserRouter as Router, Routes,Route, Link } from "react-router-dom";
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <SignUp />
-    {/* Logic here for Login and displaying the Home Page , Routing */}
-    <Home />
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<App/>}/>
+        <Route exact path="/home" element={<Home/>}/>
+      </Routes>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

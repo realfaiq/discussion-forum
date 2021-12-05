@@ -14,7 +14,7 @@ class App extends Component{
       //   <Header/>
       //   <Contact name="Asim" email="de.asimhabib@gmail.com" />
       // </div>
-      <div class="d-lg-flex half">
+    <div class="d-lg-flex half">
     <div class="bg order-1 order-md-2" style={{ backgroundImage: "url(" + "https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" + ")" }}>
     </div>
     <div class="contents order-2 order-md-1">
@@ -39,7 +39,9 @@ class App extends Component{
                   <input type="checkbox" />
                   <div class="control__indicator"></div>
                 </label>
-                <span class="ml-auto"><a href="#" data-toggle="modal" data-target="#signupModal" class="forgot-pass">Sign Up</a></span> 
+                <Link to="/signup" className="ml-auto">
+                  <span class=""><a href="#" data-toggle="modal" data-target="#signupModal" class="forgot-pass ml-5">Sign Up</a></span> 
+                </Link>
               </div>
 
               <Link to="/home">

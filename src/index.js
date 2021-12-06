@@ -13,6 +13,7 @@ ReactDOM.render(
       <Routes>
         <Route exact path="/" element={<App/>}/>
         <Route exact path="/home" element={<Home/>}/>
+        <Route exact path="/signup" element={<SignUp />}/>
       </Routes>
     </Router>
   </React.StrictMode>,
@@ -23,3 +24,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
